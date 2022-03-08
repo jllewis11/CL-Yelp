@@ -36,8 +36,28 @@ impl Place{
         }
     }
     //update the name of the place object
-    pub fn update (&mut self, s:String) {
+    pub fn update_name(&mut self, s:String) {
         self.name = s;
+    }
+    //update the address of the place object
+    pub fn update_address(&mut self, s:String) {
+        self.address = s;
+    }
+    //update the coltype of the place object
+    pub fn update_coltype(&mut self, s:String) {
+        self.coltype = s;
+    }
+    //update the rating of the place object
+    pub fn update_rating(&mut self, s:String) {
+        self.rating = s;
+    }
+    //update the avgprice of the place object
+    pub fn update_avgprice(&mut self, s:u64) {
+        self.avgprice = s;
+    }
+    //Remove a comment based upon the position of the comment in the vector
+    pub fn remove_comment(&mut self, pos:usize) {
+        self.comment.remove(pos);
     }
 
 }

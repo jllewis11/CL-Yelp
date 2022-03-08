@@ -13,7 +13,7 @@ fn main () {
 
     p1.print();
     println!("----------------------------------");
-    p1.update("Bowlero".to_string());
+    p1.update_name("Bowlero".to_string());
     p1.push("I love this place".to_string());
     p1.print();
     println!("----------------------------------");
