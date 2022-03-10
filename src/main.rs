@@ -2,6 +2,8 @@ mod place;
 
 
 
+
+
 fn main () {
     //A vector of place objects
     let mut places:Vec<place::Place> = Vec::new();
