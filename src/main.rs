@@ -7,8 +7,9 @@ fn main () {
                         "18811 Carmenita Rd, Cerritos, CA 90703".to_string(), 
                         "Indoor".to_string(), 
                         "$$".to_string(), 
-                        15,
-                        Some("This place is great".to_string())
+                        15, 
+                        Some("This place is great".to_string()), 
+                        None
                         );
 
     p1.print();
